@@ -18,8 +18,28 @@ h2{
 }
 
 .underline{
-  color: #90ee90;
   text-decoration: underline;
+  padding: 0px 0;
 }
 
 
+.category-list * {transition: .4s linear;}
+.category-list {
+  background: white;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 0 10px;
+  margin: 0;
+}
+.category-list li {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 0;
+}
+.category-list li span {
+  float: right;
+  display: inline-block;
+  border: 1px solid #efefef;
+  padding: 0 5px;
+  font-size: 13px;
+  color: #999;
+}
